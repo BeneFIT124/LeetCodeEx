@@ -22,5 +22,17 @@ fun main() {
         print("${fizubizu[i]},")
     }
 
-    println(numberOfSteps(14))
+    println("\n"+numberOfSteps(14))
+
+    val listNode1 = ListNode(1)
+    val listNode2 = ListNode(2)
+    val listNode3 = ListNode(3)
+    val listNode4 = ListNode(4)
+    val listNode5 = ListNode(5)
+    listNode1.next = listNode2
+    listNode2.next = listNode3
+    listNode3.next = listNode4
+    listNode4.next = listNode5
+
+    println(canConstruct("ddd","d"))
 }
